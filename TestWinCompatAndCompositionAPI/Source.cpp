@@ -1,4 +1,4 @@
-#define NTDDI_VERSION NTDDI_WIN7
+#define _WIN32_WINNT 0x0600 // WinVista
 #include <sdkddkver.h>
 #include <windows.h>
 #include <dwmapi.h>
